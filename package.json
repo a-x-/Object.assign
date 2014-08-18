@@ -16,7 +16,7 @@
     "test": "mocha"
   },
   "files": [
-    "index.js"
+    "object-assign.js"
   ],
   "keywords": [
     "object",
