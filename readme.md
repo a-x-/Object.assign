@@ -42,7 +42,7 @@ Returns modified target.
 ## Resources
 
 - [ES6 spec - Object.assign](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.assign)
-
+- [paulmillr/es6-shim](https://github.com/paulmillr/es6-shim) — full ES6 shims set
 
 ## License
 
