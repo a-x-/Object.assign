@@ -1,4 +1,4 @@
-# object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)
+# object-assign for browsers
 
 > ES6 [`Object.assign()`](http://www.2ality.com/2014/01/object-assign.html) ponyfill
 
@@ -6,36 +6,35 @@
 
 
 ## Install
-
-```sh
-$ npm install --save object-assign
-```
+1. Download 
+2. Include in the document
 
 
 ## Usage
 
 ```js
-var objectAssign = require('object-assign');
 
-objectAssign({foo: 0}, {bar: 1});
+Object.assign({foo: 0}, {bar: 1});
 //=> {foo: 0, bar: 1}
 
 // multiple sources
-objectAssign({foo: 0}, {bar: 1}, {baz: 3});
+Object.assign({foo: 0}, {bar: 1}, {baz: 3});
 //=> {foo: 0, bar: 1, baz: 2}
 
 // ignores null and undefined sources
-objectAssign({foo: 0}, null, {bar: 1}, undefined);
+Object.assign({foo: 0}, null, {bar: 1}, undefined);
 //=> {foo: 0, bar: 1, baz: 2}
 ```
 
 
 ## API
 
-### objectAssign(target, source, [source, ...])
+### Object.assign(target, source, [source, ...])
 
-Assigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.
+Assigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. 
+Additional `source` objects will overwrite previous ones.
 
+Returns modified target.
 
 ## Resources
 
@@ -44,4 +43,4 @@ Assigns enumerable own properties of `source` objects to the `target` object and
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT
