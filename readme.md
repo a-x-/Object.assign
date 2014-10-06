@@ -1,6 +1,8 @@
 # object-assign for browsers
 
-[a-x-/object-assign](//github.com/a-x-/object-assign) is fork (for browsers) of the [sindresorhus/object-assign](//github.com/sindresorhus/object-assign) — ES6 Object.assign() ponyfill for Node.JS ( CommonJS module style)
+[a-x-/Object.assign](//github.com/a-x-/Object.assign) is fork (for browsers) of the [sindresorhus/object-assign](//github.com/sindresorhus/object-assign) — ES6 Object.assign() ponyfill for Node.JS ( CommonJS module style).
+
+**Again one**: this fork is **for browsers** instead of original `sindresorhus/object-assign` which is for Node.JS mainly.
 
 ## ES6 and polyfills explanation...
 
